@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\begin{document}
+
+1. Escribe la fórmula de la solución a la ecuación en diferencias lineal homogénea de primer orden con condición inicial:$$x_{n+1}=ax_n, x_0=C$$
+
+Solución:
+
+\begin{align*}
+  x_1&=aC\\
+  x_2&=a^2C\\
+  x_3&=a^3C
+\end{align*}
+
+Nos podemos dar cuenta que la $a$ se eleva de acuerdo al subíndice de $x$
+
+$x_{1}=aC, x_{2}=a^{2}C, x_{3}=a^{3}C, ..., x_{n}=a^{n}C$
+
+Demostración de que  la fórmula $x_n=a^nC$ es válida.
+
+Por inducción en $n$ sabemos que $x_0=C.$
+
+La fórmula dice que $x_0=a^0C$ entonces $x_0=C.$
+
+
+Supongamos válida la fórmula para n, i.e.
+
+\begin{align*}
+  x_{n+1}&=ax_n\\
+  x_{n+1}&=a(a^nC)\\
+  x_{n+1}&=a^{n+1}C
+\end{align*}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
