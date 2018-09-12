@@ -35,6 +35,25 @@ Supongamos válida la fórmula para n, i.e.
   x_{n+1}&=a^{n+1}C
 \end{align*}
 
+2. Resuelve la ecuación en diferencias: $$x_{n+1}-x_n=e^n, x_0=2$$
+
+Podemos observar que: $x_{n+1}=e^n+x_n$
+
+Entonces:
+
+\begin{align*}
+  x_1&=e^0+x_0\\
+x_1&=e^0+2\\
+x_2&=e^1+x_1\\
+  x_2&=e^1+e^0+2
+\end{align*}
+
+La fórmula para la ecuación es:
+$$x_{n+1}=2+\sum_{i=0}^{n}e^i$$
+
+La demostración de la fórmula se deja al lector.
+
+
 
 
 \end{document}
